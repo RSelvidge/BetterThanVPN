@@ -1,4 +1,4 @@
-# How to Publish BetterThanVPN
+# How to Publish BetterThanVPN.us
 
 You can publish this website easily using either **Cloudflare Pages** (Recommended for speed) or **GitHub**.
 
