@@ -13,9 +13,9 @@ export function Navbar() {
   nav.style.width = 'calc(100% - 4rem)'; // Account for margins
 
   nav.innerHTML = `
-    <div style="font-family: var(--font-header); font-weight: 700; font-size: 1.25rem;">
+    <a href="#/" style="font-family: var(--font-header); font-weight: 700; font-size: 1.25rem;">
       <span style="color: white;">BetterThan</span><span style="color: var(--accent-green);">VPN</span>
-    </div>
+    </a>
     <div style="display: flex; gap: 1.5rem; align-items: center;">
       <a href="#/security" class="nav-link">Security</a>
       <a href="#/patching" class="nav-link">Patching</a>
