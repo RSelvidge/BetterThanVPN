@@ -9,6 +9,7 @@ import { Patching } from './pages/Patching.js';
 import { Footer } from './components/Footer.js';
 import { PrivacyPolicy } from './pages/PrivacyPolicy.js';
 import { TermsOfService } from './pages/TermsOfService.js';
+import { Purchase } from './pages/Purchase.js';
 
 const app = document.querySelector('#app');
 
@@ -22,6 +23,7 @@ const routes = {
     '/patching': Patching,
     '/privacy': PrivacyPolicy,
     '/terms': TermsOfService,
+    '/purchase': Purchase,
 };
 
 function render() {

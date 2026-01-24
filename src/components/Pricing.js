@@ -50,11 +50,17 @@ export function Pricing() {
     </div>
     <h3 style="font-size: 2rem;">Universal Access</h3>
     <div style="font-size: 3.5rem; font-weight: 700; margin: 1rem 0;">$15<span style="font-size: 1.25rem; color: var(--text-muted); font-weight: 400;">/mo</span></div>
+    <div style="margin-bottom: 2rem; color: var(--accent-green); font-weight: 600; font-size: 1.1rem;">
+      ✓ 3 Devices Included
+    </div>
     <p style="color: var(--text-muted); margin-bottom: 2.5rem; font-size: 1.1rem;">
        For Home, Gaming, Trading, and Coffee Shop security. The ultimate single source of truth for your digital life.
        Take your security with you wherever you go—from airport Wi-Fi to hotels and cafes.
     </p>
-    <a href="${config.stripe.commuter}" target="_blank" class="btn btn-primary" style="width: 100%; text-align: center; box-sizing: border-box; display: inline-block; text-decoration: none; padding: 1rem; font-size: 1.1rem;">Start Protection</a>
+    <a href="#/purchase" class="btn btn-primary" style="width: 100%; text-align: center; box-sizing: border-box; display: inline-block; text-decoration: none; padding: 1rem; font-size: 1.1rem;">
+      Activate Real Security — $15/month
+      <div style="font-size: 0.8rem; font-weight: normal; opacity: 0.9; margin-top: 4px;">Up to 3 devices · Cancel anytime</div>
+    </a>
     
     <div style="margin-top: 2.5rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
       <ul style="list-style: none; padding: 0; font-size: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
@@ -65,9 +71,7 @@ export function Pricing() {
         <li style="display: flex; gap: 10px;"><span>✓</span> Packet Loss Prevention</li>
         <li style="display: flex; gap: 10px;"><span>✓</span> Automated Patching</li>
       </ul>
-      <div style="margin-top: 1.5rem; text-align: center; color: var(--accent-green); font-weight: 600;">
-        ✓ 3 Devices Included
-      </div>
+      </ul>
     </div>
   `;
 

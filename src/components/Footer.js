@@ -28,7 +28,7 @@ export function Footer() {
     },
     {
       title: "Legal",
-      links: ["Privacy Policy", "Terms of Service", "Transparency Report"]
+      links: ["Privacy Policy", "Terms of Service"]
     }
   ];
 
@@ -82,7 +82,7 @@ export function Footer() {
   availability.style.marginBottom = '1.5rem';
   availability.style.color = '#555'; // Darker text for disclaimer
   availability.style.fontSize = '0.8rem';
-  availability.innerHTML = 'Service not available in China, Vietnam, Morocco.';
+  availability.innerHTML = 'Service not available in China, Vietnam, Morocco.<br><span style="color: var(--accent-indigo)">Patching available only for Windows.</span>';
   footer.appendChild(availability);
 
   footer.appendChild(copyright);

@@ -19,7 +19,7 @@ export function Hero() {
       Experience the first consumer network powered by a Fortune 500 Enterprise Backbone. Low latency, zero-trust security, and US-based reliability.
     </p>
     <div style="display: flex; gap: 1rem;">
-      <button class="btn btn-primary">Get Early Access</button>
+      <a href="#/purchase" class="btn btn-primary">Start Protection</a>
     </div>
   `;
 

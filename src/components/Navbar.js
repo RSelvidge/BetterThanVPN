@@ -22,7 +22,6 @@ export function Navbar() {
       <a href="#/gaming" class="nav-link">Gaming</a>
       <a href="#/public-wifi" class="nav-link">Public Wi-Fi</a>
       <a href="#/exposed" class="nav-link" style="color: var(--accent-red);">Check Exposure</a>
-      <a href="#/" class="btn btn-primary" style="padding: 0.5rem 1rem; font-size: 0.9rem;">Get Early Access</a>
     </div>
   `;
 

@@ -1,21 +1,32 @@
 :root {
     /* Colors */
-    --bg-dark: #0a0a0a;
-    --bg-light: #f7f7f7;
-    --bg-card: #111111;
-    --text-main: #1f2937;
+    /* Colors - Midnight Blue Theme */
+    --bg-dark: #0f172a;
+    /* Slate 900 - Lighter than black */
+    --bg-light: #f8fafc;
+    /* Slate 50 */
+    --bg-card: #1e293b;
+    /* Slate 800 */
+    --text-main: #334155;
+    /* Slate 700 */
     /* Dark Grey for Light Mode */
-    --text-inverse: #ffffff;
+    --text-inverse: #f1f5f9;
+    /* Slate 100 */
     /* White for Dark Mode */
-    --text-muted: #6b7280;
+    --text-muted: #64748b;
+    /* Slate 500 */
     /* Light Mode Muted */
-    --text-muted-dark: #a1a1aa;
+    --text-muted-dark: #94a3b8;
+    /* Slate 400 */
     /* Dark Mode Muted */
 
-    --accent-indigo: #6366f1;
-    --accent-green: #00ff94;
+    --accent-indigo: #818cf8;
+    /* Indigo 400 - brighter */
+    --accent-green: #34d399;
+    /* Emerald 400 - brighter */
     /* Signal Green */
-    --accent-red: #ff4d4d;
+    --accent-red: #f87171;
+    /* Red 400 - brighter */
 
     /* Fonts */
     --font-header: 'Inter', 'Space Grotesk', sans-serif;
@@ -43,7 +54,7 @@ body {
 }
 
 .hero-bg {
-    background: linear-gradient(to bottom, rgba(10, 10, 10, 0.3), rgba(10, 10, 10, 0.7)), url('/hero-bg.jpg');
+    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.95)), url('/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -90,7 +101,8 @@ a {
 .dark-section .glass-panel,
 .glass-panel.dark-mode {
     /* Dark Mode Glass */
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.05);
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     color: white;
@@ -169,9 +181,9 @@ a {
 
 /* Animation Utils */
 .fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
+    animation: fadeIn 1.5s ease-out forwards;
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(10px);
 }
 
 @keyframes fadeIn {

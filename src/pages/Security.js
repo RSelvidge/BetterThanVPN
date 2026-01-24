@@ -103,6 +103,20 @@ export function Security() {
     });
 
     content.appendChild(grid);
+
+    // New Threats Visualization Section
+    const visualSection = document.createElement('div');
+    visualSection.style.marginTop = '6rem';
+    visualSection.style.position = 'relative';
+    visualSection.style.borderRadius = '16px';
+    visualSection.style.overflow = 'hidden';
+    visualSection.style.boxShadow = '0 10px 40px rgba(0,0,0,0.3)';
+    visualSection.innerHTML = `
+        <img src="/security-threats.jpg" alt="Understand the extent of online threats" style="width: 100%; height: auto; display: block;">
+    `;
+    content.appendChild(visualSection);
+
+    content.appendChild(grid);
     container.appendChild(content);
     return container; // Ensure we return the wrapper
 }

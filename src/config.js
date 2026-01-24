@@ -3,7 +3,7 @@
 
 export const config = {
     stripe: {
-        commuter: "#", // e.g., "https://buy.stripe.com/..."
+        commuter: "https://buy.stripe.com/bJebJ0cbccVpeO8g1G9Zm06", // Universal Access
         pro: "#"      // e.g., "https://buy.stripe.com/..."
     }
 };
